@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping</title>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-top clear-fix" id="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-hidden-sm col-hidden-xs hotline">
+                        <span><i class="fa fa-envelope" aria-hidden="true"></i> Email:
+                            nguyenminhduc1327@gmail.com</span>
+                        <span><i class="fa fa-phone" aria-hidden="true"></i> Phone: 0982238730</span>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-hidden-sm col-hidden-xs">
+                        <div class="fastmenu">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-user"></i> Tài khoản</a></li>
+                                <li><a href="#"><i class="fa fa-heart"></i> Yêu thích</a></li>
+                                <li><a href="#"><i class="fa fa-eur"></i> Thanh toán</a></li>
+                                <li><a href="#"><i class="fa fa-sign-out"></i></i> Đăng ký</a></li>
+                                <li><a href="#"><i class="fa fa-sign-in"></i> Đăng nhập</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-mid clear-fix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 logo">
+                        <a href="/">
+                            <img src="images/logo.jpg" alt="logo" />
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 box">
+                        <div class="box-search">
+                            <input type="text" placeholder="Nhập từ khóa để tìm kiếm .." />
+                            <button type="submit" class="btnSearch"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="box-cart">
+                            <div>
+                                <p>Giỏ hàng</p>
+                                <p><small>(0) sản phẩm</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-4 col-xs-12 paddingright0">
+                    <div class="title_mm">
+                        <h4><i class="fa fa-home"></i>Danh mục sản phẩm <i class="fa fa-caret-down pull-right"></i></h4>
+                    </div>
+                    <div class="box-menu-left">
+                        <ul>
+                            <li><a href=""><span><img src="./images/icon1.png" alt=""></span> Đồ gia dụng <i
+                                        class="fa fa-angle-right pull-right"></i></a></li>
+                            <li><a href=""><span><img src="./images/incon2.png" alt=""></span> Điện gia dụng <i
+                                        class="fa fa-angle-right pull-right"></i></a></li>
+                            <li><a href=""><span><img src="./images/icon3.png" alt=""></span> Máy lọc nước <i
+                                        class="fa fa-angle-right pull-right"></i></a></li>
+                            <li><a href=""><span><img src="./images/icon4.png" alt=""></span> Thiết bị nhà bếp <i
+                                        class="fa fa-angle-right pull-right"></i></a></li>
+                            <li><a href=""><span><img src="./images/icon5.png" alt=""></span> Thiết bị công nghiệp <i
+                                        class="fa fa-angle-right pull-right"></i></a></li>
+                            <li><a href=""><span><img src="./images/icon6.png" alt=""></span> Điện dân dụng <i
+                                        class="fa fa-angle-right pull-right"></i></a></li>
+                            <li><a href=""><span><img src="./images/icon7.png" alt=""></span> Đồ dùng cá nhân <i
+                                        class="fa fa-angle-right pull-right"></i></a></li>
+                            <li><a href=""><span><img src="./images/icon1.png" alt=""></span> Sản phẩm khác <i
+                                        class="fa fa-angle-right pull-right"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-8 col-xs-12 paddingleft0">
+                    <div class="block-menu">
+                        <ul>
+                            <li class="active"><a href="">Hot Deals <img src="./images/hot.png" alt=""
+                                        class="icon-menu"></a></li>
+                            <li class="active"><a href="">Khuyến Mãi <img src="./images/hot.png" alt=""
+                                        class="icon-menu"></a></li>
+                            <li><a href="">Bán trả góp</a></li>
+                            <li><a href="">Tuyển dụng</a></li>
+                            <li><a href="">Dịch vụ</a></li>
+                            <li><a href="">Tin tức</a></li>
+                        </ul>
+                    </div>
+                    <div class="row margintop10">
+                        <div class="col-md-7 paddingright5 paddingleft10">
+                            <div class="slider">
+                                <a href="">
+                                    <img src="./images/slider1.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-5 paddingleft5">
+                            <div class="box-qc">
+                                <a href="">
+                                    <img src="./images/qc1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="box-qc">
+                                <a href="">
+                                    <img src="./images/qc2.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="margintop10"></div>
+            <div class="row">
+                <div class="col-md-6 hidden-xs paddingright5">
+                    <a href="" class=" adverting">
+                        <img src="./images/qc3.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-6 hidden-xs paddingleft5">
+                    <a href="" class=" adverting">
+                        <img src="./images/qc4.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-4 hidden-xs">
+                    <div class="col-left">
+                        <div class="title-left">
+                            Sản phẩm bán chạy
+                        </div>
+                        <div class="col-left-content">
+                            <ul>
+                                <li class="product">
+                                    <div class="col-md-5">
+                                        <a href="" class="img-product">
+                                            <img src="./images/chao.png" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="col-md-7 content-pro">
+                                        <h3>
+                                            <a href="">Đèn thả trơn điện vuông</a>
+                                        </h3>
+                                        <p>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </p>
+                                        <div class="box-price">
+                                            <span>Giá: <strong class="price-new">188.000$</strong></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="product">
+                                    <div class="col-md-5">
+                                        <a href="" class="img-product">
+                                            <img src="./images/maysinhto.png" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="col-md-7 content-pro">
+                                        <h3>
+                                            <a href="">Đèn thả trơn điện vuông</a>
+                                        </h3>
+                                        <p>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </p>
+                                        <div class="box-price">
+                                            <span>Giá: <strong class="price-new">188.000$</strong></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="product">
+                                    <div class="col-md-5">
+                                        <a href="" class="img-product">
+                                            <img src="./images/maynuocnong.png" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="col-md-7 content-pro">
+                                        <h3>
+                                            <a href="">Đèn thả trơn điện vuông</a>
+                                        </h3>
+                                        <p>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </p>
+                                        <div class="box-price">
+                                            <span>Giá: <strong class="price-new">188.000$</strong></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="product">
+                                    <div class="col-md-5">
+                                        <a href="" class="img-product">
+                                            <img src="./images/maynuocnong1.png" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="col-md-7 content-pro">
+                                        <h3>
+                                            <a href="">Đèn thả trơn điện vuông</a>
+                                        </h3>
+                                        <p>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </p>
+                                        <div class="box-price">
+                                            <span>Giá: <strong class="price-new">188.000$</strong></span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-8 col-xs-12 margintop10">
+                    <div class="row title_pro">
+                        <div class="col-md-3 pro_item">
+                            <h3>
+                                Sản phẩm nổi bật
+                            </h3>
+                        </div>
+                        <div class="col-md-9 pro_back"></div>
+                    </div>
+                    <div class="row margintop10">
+                        <div class="container">
+                            <div class="owl-carousel border-item">
+                                <div class="item">
+                                    <div class="actions">
+                                        <a href="">
+                                            <i class="fa fa-shopping-basket"></i>
+                                            <span>Thêm vào giỏ</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-heart-o"></i>
+                                            <span>Yêu thích</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-random"></i>
+                                            <span>So sánh</span>
+                                        </a>
+                                    </div>
+                                    <div class="img-pro">
+                                        <img src="./images/ricecook.png" alt="">
+                                    </div>
+                                    <div class="content-pro">
+                                        <h3>
+                                            <a href="">Đèn thả trơn điện vuông</a>
+                                        </h3>
+                                        <p>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </p>
+                                        <div class="box-price">
+                                            <span>Giá: <strong class="price-new">188.000$</strong></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="actions">
+                                        <a href="">
+                                            <i class="fa fa-shopping-basket"></i>
+                                            <span>Thêm vào giỏ</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-heart-o"></i>
+                                            <span>Yêu thích</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-random"></i>
+                                            <span>So sánh</span>
+                                        </a>
+                                    </div>
+                                    <div class="img-pro">
+                                        <img src="./images/ricecook.png" alt="">
+                                    </div>
+                                    <div class="content-pro">
+                                        <h3>
+                                            <a href="">Đèn thả trơn điện vuông</a>
+                                        </h3>
+                                        <p>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </p>
+                                        <div class="box-price">
+                                            <span>Giá: <strong class="price-new">188.000$</strong></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="actions">
+                                        <a href="">
+                                            <i class="fa fa-shopping-basket"></i>
+                                            <span>Thêm vào giỏ</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-heart-o"></i>
+                                            <span>Yêu thích</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-random"></i>
+                                            <span>So sánh</span>
+                                        </a>
+                                    </div>
+                                    <div class="img-pro">
+                                        <img src="./images/ricecook.png" alt="">
+                                    </div>
+                                    <div class="content-pro">
+                                        <h3>
+                                            <a href="">Đèn thả trơn điện vuông</a>
+                                        </h3>
+                                        <p>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </p>
+                                        <div class="box-price">
+                                            <span>Giá: <strong class="price-new">188.000$</strong></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="actions">
+                                        <a href="">
+                                            <i class="fa fa-shopping-basket"></i>
+                                            <span>Thêm vào giỏ</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-heart-o"></i>
+                                            <span>Yêu thích</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-random"></i>
+                                            <span>So sánh</span>
+                                        </a>
+                                    </div>
+                                    <div class="img-pro">
+                                        <img src="./images/ricecook.png" alt="">
+                                    </div>
+                                    <div class="content-pro">
+                                        <h3>
+                                            <a href="">Đèn thả trơn điện vuông</a>
+                                        </h3>
+                                        <p>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </p>
+                                        <div class="box-price">
+                                            <span>Giá: <strong class="price-new">188.000$</strong></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="actions">
+                                        <a href="">
+                                            <i class="fa fa-shopping-basket"></i>
+                                            <span>Thêm vào giỏ</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-heart-o"></i>
+                                            <span>Yêu thích</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-random"></i>
+                                            <span>So sánh</span>
+                                        </a>
+                                    </div>
+                                    <div class="img-pro">
+                                        <img src="./images/ricecook.png" alt="">
+                                    </div>
+                                    <div class="content-pro">
+                                        <h3>
+                                            <a href="">Đèn thả trơn điện vuông</a>
+                                        </h3>
+                                        <p>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </p>
+                                        <div class="box-price">
+                                            <span>Giá: <strong class="price-new">188.000$</strong></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="actions">
+                                        <a href="">
+                                            <i class="fa fa-shopping-basket"></i>
+                                            <span>Thêm vào giỏ</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-heart-o"></i>
+                                            <span>Yêu thích</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-random"></i>
+                                            <span>So sánh</span>
+                                        </a>
+                                    </div>
+                                    <div class="img-pro">
+                                        <img src="./images/ricecook.png" alt="">
+                                    </div>
+                                    <div class="content-pro">
+                                        <h3>
+                                            <a href="">Đèn thả trơn điện vuông</a>
+                                        </h3>
+                                        <p>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </p>
+                                        <div class="box-price">
+                                            <span>Giá: <strong class="price-new">188.000$</strong></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row title_pro">
+                        <div class="col-md-3 pro_item">
+                            <h3>
+                                Sản phẩm mới
+                            </h3>
+                        </div>
+                        <div class="col-md-9 pro_back"></div>
+                    </div>
+                    <div class="row margintop10">
+                        <div class="container">
+                            <div class="owl-carousel border-item">
+                                <div class="item">
+                                    <div class="actions">
+                                        <a href="">
+                                            <i class="fa fa-shopping-basket"></i>
+                                            <span>Thêm vào giỏ</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-heart-o"></i>
+                                            <span>Yêu thích</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-random"></i>
+                                            <span>So sánh</span>
+                                        </a>
+                                    </div>
+                                    <div class="img-pro">
+                                        <img src="./images/binhdunnuoc.png" alt="">
+                                    </div>
+                                    <div class="content-pro">
+                                        <h3>
+                                            <a href="">Đèn thả trơn điện vuông</a>
+                                        </h3>
+                                        <p>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </p>
+                                        <div class="box-price">
+                                            <span>Giá: <strong class="price-new">188.000$</strong></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="actions">
+                                        <a href="">
+                                            <i class="fa fa-shopping-basket"></i>
+                                            <span>Thêm vào giỏ</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-heart-o"></i>
+                                            <span>Yêu thích</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-random"></i>
+                                            <span>So sánh</span>
+                                        </a>
+                                    </div>
+                                    <div class="img-pro">
+                                        <img src="./images/binhdunnuoc.png" alt="">
+                                    </div>
+                                    <div class="content-pro">
+                                        <h3>
+                                            <a href="">Đèn thả trơn điện vuông</a>
+                                        </h3>
+                                        <p>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </p>
+                                        <div class="box-price">
+                                            <span>Giá: <strong class="price-new">188.000$</strong></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="actions">
+                                        <a href="">
+                                            <i class="fa fa-shopping-basket"></i>
+                                            <span>Thêm vào giỏ</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-heart-o"></i>
+                                            <span>Yêu thích</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-random"></i>
+                                            <span>So sánh</span>
+                                        </a>
+                                    </div>
+                                    <div class="img-pro">
+                                        <img src="./images/binhdunnuoc.png" alt="">
+                                    </div>
+                                    <div class="content-pro">
+                                        <h3>
+                                            <a href="">Đèn thả trơn điện vuông</a>
+                                        </h3>
+                                        <p>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </p>
+                                        <div class="box-price">
+                                            <span>Giá: <strong class="price-new">188.000$</strong></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="actions">
+                                        <a href="">
+                                            <i class="fa fa-shopping-basket"></i>
+                                            <span>Thêm vào giỏ</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-heart-o"></i>
+                                            <span>Yêu thích</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-random"></i>
+                                            <span>So sánh</span>
+                                        </a>
+                                    </div>
+                                    <div class="img-pro">
+                                        <img src="./images/binhdunnuoc.png" alt="">
+                                    </div>
+                                    <div class="content-pro">
+                                        <h3>
+                                            <a href="">Đèn thả trơn điện vuông</a>
+                                        </h3>
+                                        <p>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </p>
+                                        <div class="box-price">
+                                            <span>Giá: <strong class="price-new">188.000$</strong></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="actions">
+                                        <a href="">
+                                            <i class="fa fa-shopping-basket"></i>
+                                            <span>Thêm vào giỏ</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-heart-o"></i>
+                                            <span>Yêu thích</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-random"></i>
+                                            <span>So sánh</span>
+                                        </a>
+                                    </div>
+                                    <div class="img-pro">
+                                        <img src="./images/binhdunnuoc.png" alt="">
+                                    </div>
+                                    <div class="content-pro">
+                                        <h3>
+                                            <a href="">Đèn thả trơn điện vuông</a>
+                                        </h3>
+                                        <p>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </p>
+                                        <div class="box-price">
+                                            <span>Giá: <strong class="price-new">188.000$</strong></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="actions">
+                                        <a href="">
+                                            <i class="fa fa-shopping-basket"></i>
+                                            <span>Thêm vào giỏ</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-heart-o"></i>
+                                            <span>Yêu thích</span>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa fa-random"></i>
+                                            <span>So sánh</span>
+                                        </a>
+                                    </div>
+                                    <div class="img-pro">
+                                        <img src="./images/binhdunnuoc.png" alt="">
+                                    </div>
+                                    <div class="content-pro">
+                                        <h3>
+                                            <a href="">Đèn thả trơn điện vuông</a>
+                                        </h3>
+                                        <p>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </p>
+                                        <div class="box-price">
+                                            <span>Giá: <strong class="price-new">188.000$</strong></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div class="line-top"></div>
+        <div class="container">
+            <div class="row footer-mid">
+                <div class="col-md-3">
+                    <h3>Về chúng tôi</h3>
+                    <ul>
+                        <li><a href=""><i class="fa fa-caret-right"></i> Giới thiệu</a></li>
+                        <li><a href=""><i class="fa fa-caret-right"></i> Chính sách bán hàng</a></li>
+                        <li><a href=""><i class="fa fa-caret-right"></i> Chính sách đổi trả</a></li>
+                        <li><a href=""><i class="fa fa-caret-right"></i> Phiên bản mobile</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Hỗ trợ khách hàng</h3>
+                    <ul>
+                        <li><a href=""><i class="fa fa-caret-right"></i> Giới thiệu</a></li>
+                        <li><a href=""><i class="fa fa-caret-right"></i> Chính sách bán hàng</a></li>
+                        <li><a href=""><i class="fa fa-caret-right"></i> Chính sách đổi trả</a></li>
+                        <li><a href=""><i class="fa fa-caret-right"></i> Phiên bản mobile</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Tài khoản</h3>
+                    <ul>
+                        <li><a href=""><i class="fa fa-caret-right"></i> Giới thiệu</a></li>
+                        <li><a href=""><i class="fa fa-caret-right"></i> Chính sách bán hàng</a></li>
+                        <li><a href=""><i class="fa fa-caret-right"></i> Chính sách đổi trả</a></li>
+                        <li><a href=""><i class="fa fa-caret-right"></i> Phiên bản mobile</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-contact">
+                    <h3>Thông tin liên hệ</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <i class="fa fa-home"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <p> Số 87 Nguyễn Sỹ Sách, phường 15, quận Tân Bình, TPHCM</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <i class="fa fa-phone-square"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <p> 0982238730</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <i class="fa fa-envelope-o"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <p>Email:  nguyenminhduc1327@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer clear-fix">
+            <div class="container">
+                <div class="row">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="copyright m-auto pd-3">
+                                    <p style="color: #fff;"> <i class="fa fa-copyright"></i> Copyright 2010-2015 <span
+                                            style="color: #f0141e;">DKWEB.VN</span> - Giải pháp thiết kế web bán hàng số
+                                        1 Việt Nam</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="./libs/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 4,
+                    nav: false
+                },
+                1000: {
+                    items: 4,
+                    nav: true,
+                    loop: false
+                }
+            }
+        })
+    </script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
